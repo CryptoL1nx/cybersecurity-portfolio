@@ -5,7 +5,7 @@ This case study analyzes a Wireshark packet capture from a simulated denial-of-s
 
 ## Contents
 - [syn_flood_report.pdf](SYN_Flood_Attack_Investigation.pdf) — Full incident analysis, including attack identification, three-way handshake breakdown, log evidence, business impact, and recommended mitigations.
-- [wireshark_tcp_http_log.pdf](Wireshark TCP_HTTP log - TCP log.pdf) — Annotated packet capture log used for the analysis. Color-coded for readability: **red** for anomalous/attack traffic, **green** for normal client activity, **yellow** for error responses.
+- [wireshark_tcp_http_log.pdf](wireshark_tcp_http_log.pdf) — Annotated packet capture log used for the analysis. Color-coded for readability: **red** for anomalous/attack traffic, **green** for normal client activity, **yellow** for error responses.
 
 ## Key Findings
 - Identified a **SYN flood attack**: a single source IP repeatedly sent TCP SYN packets to port 443 without completing the handshake, exhausting server connection resources.
