@@ -1,6 +1,6 @@
 # Linux File Permissions & Access Control Audit
 
-> 📄 **Official Lab Documentation & Verified Screenshots:**  
+> 📄 **Official Lab Documentation & Screenshots:**  
 > [View the Full Lab Report PDF with Screenshots](Linux_File_Permissions_&_Access_Control_Audit.pdf)
 
 ---
