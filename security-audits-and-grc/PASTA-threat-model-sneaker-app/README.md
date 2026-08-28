@@ -4,7 +4,7 @@
 This case study applies the Process for Attack Simulation and Threat Analysis (PASTA) framework to a fictional pre-launch mobile marketplace app connecting sneaker buyers and sellers. Unlike an incident response report, this is a proactive assessment: the goal is to evaluate an application's security posture *before* launch and determine what must be fixed first.
 
 ## Report
-[**View the full report (PDF)**](./PASTA_Threat_Model_Sneaker_App.pdf)
+[**View the full report (PDF)**](./PASTA_Threat_Model.pdf)
 
 ## What This Demonstrates
 - Working through all seven stages of a recognized application threat modeling framework, from business objectives through to prioritized remediation
