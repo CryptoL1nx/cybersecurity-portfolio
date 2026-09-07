@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Professional cybersecurity portfolio showcasing hands-on labs, security audits, network traffic analysis, digital forensics, and AI security projects, completed through academic coursework, professional certifications, and independent projects.
+Professional cybersecurity portfolio showcasing hands-on labs, security audits, network traffic analysis, digital forensics, incident response, and AI security projects, completed through academic coursework, professional certifications, and independent projects.
 
 ## About Me
 
@@ -10,17 +10,20 @@ I'm currently completing a dual M.S. in Computer Information Systems (Security c
 
 ## Repository Structure
 
-- [`ai-security/`](./ai-security) — AI and machine learning security projects, including a biometric deepfake detection system built on ArcFace facial recognition (see `deepfake-detection/` for the full project, hosted in its own repository).
-- [`botium-toys-risk-assessment/`](./botium-toys-risk-assessment) — Security risk assessment and controls audit for a fictional retail/e-commerce company, aligned to the NIST Cybersecurity Framework and evaluated against PCI DSS, GDPR, and SOC 2 compliance requirements. Key finding: a risk score of 8/10, driven by unencrypted cardholder data and a lack of least privilege access controls.
-- [`digital-forensics/`](./digital-forensics) — Case studies applying digital forensics methodology and tools (FTK Imager, Autopsy) to investigate simulated incidents.
-- [`network-traffic-analysis/`](./network-traffic-analysis) — Packet capture investigations (Wireshark, tcpdump) covering denial-of-service attacks and compromised-account incidents, including protocol analysis and incident documentation.
+- [`access-control-and-systems/`](./access-control-and-systems) — System-level access control and hardening exercises. `linux-file-permissions/`: audited and remediated a Linux directory's authorization scheme (files, a hidden file, and a subdirectory) using `ls -la` and `chmod` to enforce the principle of least privilege.
+- [`ai-security/`](./ai-security) — AI and machine learning security projects. `deepfake-detection/`: a biometric deepfake detection system using a pretrained ArcFace model to flag identity mismatch rather than visual artifacts — 100% detection on FaceForensics++ FaceSwap, AUC 0.918 on LFW (full project hosted in its own repository).
+- [`digital-forensics/`](./digital-forensics) — Case studies from a graduate digital forensics course, spanning disk, mobile, and cloud evidence acquisition (FTK Imager, Autopsy, direct SQLite queries against cloud sync artifacts), plus two written strategy pieces on building a forensics program and cloud evidence intake.
+- [`incident-response/`](./incident-response) — Ongoing incident handling documentation. `incident-handlers-journal/`: a running journal (in the style of a working analyst's notebook, not a formal report) documenting incidents as they're worked, starting with a healthcare ransomware case.
+- [`network-traffic-analysis/`](./network-traffic-analysis) — Packet capture investigations across three case studies: a SYN flood denial-of-service attack (Wireshark), a brute-force attack leading to a malicious site redirect (tcpdump), and an ICMP flood analyzed against the NIST Cybersecurity Framework.
+- [`security-audits-and-grc/`](./security-audits-and-grc) — Governance, risk, and compliance case studies: a full internal security audit against NIST CSF/PCI DSS/GDPR/SOC 2 (Botium Toys), a NIST SP 800-30 vulnerability assessment grounded in a simulated network scan, and a PASTA application threat model for a pre-launch mobile app.
 
 ## Skills Represented
 
 - Network traffic and packet capture analysis (Wireshark, tcpdump)
-- Digital forensics and evidence handling
-- Security risk assessment and GRC frameworks
-- Incident documentation and reporting
+- Digital forensics across disk, mobile, and cloud evidence (FTK Imager, Autopsy, SQLite)
+- Linux system administration and access control (chmod, least privilege)
+- Security risk assessment and GRC frameworks (NIST CSF, NIST SP 800-30, PASTA)
+- Incident documentation and response, from working notes to formal reporting
 - AI/ML security and biometric systems
 - Cloud security fundamentals (AWS, IAM)
 
