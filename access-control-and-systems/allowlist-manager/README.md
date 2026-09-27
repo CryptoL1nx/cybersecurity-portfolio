@@ -8,11 +8,13 @@ Given an **allow list** (IP addresses currently permitted into a restricted subn
 
 ```bash
 # Preview the change without writing anything
-python allowlist_manager.py --allow-list allow_list.txt --remove-list remove_list.txt --dry-run
+python allowlist_manager.py --allow-list sample_data/allow_list.txt --remove-list sample_data/remove_list.txt --dry-run
 
 # Apply the change and keep a timestamped audit log
-python allowlist_manager.py --allow-list allow_list.txt --remove-list remove_list.txt --log-file audit.log
+python allowlist_manager.py --allow-list sample_data/allow_list.txt --remove-list sample_data/remove_list.txt --log-file audit.log
 ```
+
+The `--allow-list` and `--remove-list` flags take a path to any file with one IP address per line — `sample_data/` just holds a ready-made example. Point them at your own files (or paths) to use it on real data. On Windows, use backslashes or forward slashes interchangeably, e.g. `sample_data\allow_list.txt`.
 
 ## Sample output
 
